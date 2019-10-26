@@ -1,0 +1,3 @@
+[submodule "sub_function"]
+	path = sub_function
+	url = git@github.com:wanzew/sub_function.git
