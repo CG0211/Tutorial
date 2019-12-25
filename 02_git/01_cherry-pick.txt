@@ -6,3 +6,10 @@ commit on branch feature/tutorial-2019-1225-cherry-pick-practice
 =======================================================================
 second commit on branch feature/tutorial-2019-1225-cherry-pick-practice
 =======================================================================
+
+
+=======================================================================
+third commit 
+git cherry-pick -x commit-id
+keep the info of origin author
+=======================================================================
