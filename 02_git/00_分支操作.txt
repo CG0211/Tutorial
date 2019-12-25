@@ -1,0 +1,15 @@
+1、查看所有分支
+
+git branch -a
+
+2、查看当前所在分支
+
+git branch
+
+3、删除本地的bug_xzx分支
+
+git branch -d branch-name
+
+4、删除远程的bug_xzx分支
+
+git push origin --delete branch-name
