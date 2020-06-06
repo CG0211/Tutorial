@@ -4,3 +4,6 @@
 [submodule "algorithm_1"]
 	path = algorithm_1
 	url = git@github.com:wanzew/algorithm_1.git
+[submodule "CXX-Data-Struct-Algo"]
+	path = CXX-Data-Struct-Algo
+	url = git@github.com:wanzew/CXX-Data-Struct-Algo.git
