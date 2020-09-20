@@ -7,3 +7,6 @@
 [submodule "CXX-Data-Struct-Algo"]
 	path = CXX-Data-Struct-Algo
 	url = git@github.com:wanzew/CXX-Data-Struct-Algo.git
+[submodule "05_leetcode"]
+	path = 05_leetcode
+	url = https://github.com/wanzew/LC.git
