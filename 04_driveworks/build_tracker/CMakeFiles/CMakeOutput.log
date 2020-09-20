@@ -1,0 +1,563 @@
+The target system is: Linux - 1 - aarch64
+The host system is: Linux - 4.8.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc 
+Build flags: -fPIC
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++ 
+Build flags: -fPIC
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43707/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43707.dir/build.make CMakeFiles/cmTC_43707.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43707.dir/testCCompiler.c.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -o CMakeFiles/cmTC_43707.dir/testCCompiler.c.o   -c /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_43707
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43707.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target   CMakeFiles/cmTC_43707.dir/testCCompiler.c.o  -o cmTC_43707 -rdynamic 
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0752/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0752.dir/build.make CMakeFiles/cmTC_b0752.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0752.dir/CMakeCCompilerABI.c.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -o CMakeFiles/cmTC_b0752.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_b0752
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0752.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target  -v CMakeFiles/cmTC_b0752.dir/CMakeCCompilerABI.c.o  -o cmTC_b0752 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc
+COLLECT_LTO_WRAPPER=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/lto-wrapper
+Target: aarch64-gnu-linux
+Configured with: /home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=i686-oesdk-linux --target=aarch64-gnu-linux --prefix=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr --exec_prefix=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr --bindir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/bin/aarch64-gnu-linux --sbindir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/bin/aarch64-gnu-linux --libexecdir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/libexec/aarch64-gnu-linux --datadir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/share --sysconfdir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/etc --sharedstatedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/com --localstatedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/var --libdir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/lib/aarch64-gnu-linux --includedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/include --oldincludedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/include --infodir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/share/info --mandir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/i686-nativesdk-oesdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-gnu-linux- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-build-time-tools=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/x86_64-linux/usr/aarch64-gnu-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/tegra-t18x --with-sysroot=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/sysroot --enable-poison-system-directories --with-mpfr=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/i686-nativesdk-oesdk-linux --with-mpc=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/i686-nativesdk-oesdk-linux --enable-nls --enable-__cxa_atexit
+Thread model: posix
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/
+LIBRARY_PATH=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot' '-fPIC' '-L/lib-target' '-L/targetfs/lib/aarch64-linux-gnu' '-v' '-o' 'cmTC_b0752' '-rdynamic' '-mlittle-endian' '-mabi=lp64'
+ /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/collect2 --sysroot=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_b0752 /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crt1.o /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crti.o /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/crtbegin.o -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2 -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2 -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib -rpath /lib-target CMakeFiles/cmTC_b0752.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/crtend.o /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crtn.o
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-gnu-linux-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b0752/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b0752.dir/build.make CMakeFiles/cmTC_b0752.dir/build]
+  ignore line: [make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_b0752.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -o CMakeFiles/cmTC_b0752.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_b0752]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0752.dir/link.txt --verbose=1]
+  ignore line: [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target  -v CMakeFiles/cmTC_b0752.dir/CMakeCCompilerABI.c.o  -o cmTC_b0752 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/lto-wrapper]
+  ignore line: [Target: aarch64-gnu-linux]
+  ignore line: [Configured with: /home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=i686-oesdk-linux --target=aarch64-gnu-linux --prefix=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr --exec_prefix=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr --bindir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/bin/aarch64-gnu-linux --sbindir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/bin/aarch64-gnu-linux --libexecdir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/libexec/aarch64-gnu-linux --datadir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/share --sysconfdir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/etc --sharedstatedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/com --localstatedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/var --libdir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/lib/aarch64-gnu-linux --includedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/include --oldincludedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/include --infodir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/share/info --mandir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/i686-nativesdk-oesdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-gnu-linux- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-build-time-tools=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/x86_64-linux/usr/aarch64-gnu-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/tegra-t18x --with-sysroot=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/sysroot --enable-poison-system-directories --with-mpfr=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/i686-nativesdk-oesdk-linux --with-mpc=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/i686-nativesdk-oesdk-linux --enable-nls --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/]
+  ignore line: [LIBRARY_PATH=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot' '-fPIC' '-L/lib-target' '-L/targetfs/lib/aarch64-linux-gnu' '-v' '-o' 'cmTC_b0752' '-rdynamic' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/collect2 --sysroot=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_b0752 /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crt1.o /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crti.o /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/crtbegin.o -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2 -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2 -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib -rpath /lib-target CMakeFiles/cmTC_b0752.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/crtend.o /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crtn.o]
+    arg [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/collect2] ==> ignore
+    arg [--sysroot=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b0752] ==> ignore
+    arg [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/crtbegin.o] ==> ignore
+    arg [-L/lib-target] ==> dir [/lib-target]
+    arg [-L/targetfs/lib/aarch64-linux-gnu] ==> dir [/targetfs/lib/aarch64-linux-gnu]
+    arg [-L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2] ==> dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2]
+    arg [-L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc] ==> dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc]
+    arg [-L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib] ==> dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib]
+    arg [-L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2] ==> dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2]
+    arg [-L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib] ==> dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib]
+    arg [-rpath] ==> ignore
+    arg [/lib-target] ==> ignore
+    arg [CMakeFiles/cmTC_b0752.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/crtend.o] ==> ignore
+    arg [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/lib-target] ==> [/lib-target]
+  collapse library dir [/targetfs/lib/aarch64-linux-gnu] ==> [/targetfs/lib/aarch64-linux-gnu]
+  collapse library dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2] ==> [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2]
+  collapse library dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc] ==> [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/lib/aarch64-gnu-linux/gcc]
+  collapse library dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib] ==> [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/sysroot/lib]
+  collapse library dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2] ==> [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/sysroot/usr/lib/aarch64-gnu-linux/4.9.2]
+  collapse library dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib] ==> [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/sysroot/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/lib-target;/targetfs/lib/aarch64-linux-gnu;/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2;/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/lib/aarch64-gnu-linux/gcc;/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/sysroot/lib;/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/sysroot/usr/lib/aarch64-gnu-linux/4.9.2;/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b2e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b2e1.dir/build.make CMakeFiles/cmTC_4b2e1.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b2e1.dir/feature_tests.c.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -std=c11 -o CMakeFiles/cmTC_4b2e1.dir/feature_tests.c.o   -c /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4b2e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b2e1.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target   CMakeFiles/cmTC_4b2e1.dir/feature_tests.c.o  -o cmTC_4b2e1 -rdynamic 
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a0aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8a0aa.dir/build.make CMakeFiles/cmTC_8a0aa.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a0aa.dir/feature_tests.c.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -std=c99 -o CMakeFiles/cmTC_8a0aa.dir/feature_tests.c.o   -c /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/feature_tests.c
+Linking C executable cmTC_8a0aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a0aa.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target   CMakeFiles/cmTC_8a0aa.dir/feature_tests.c.o  -o cmTC_8a0aa -rdynamic 
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d43ee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d43ee.dir/build.make CMakeFiles/cmTC_d43ee.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d43ee.dir/feature_tests.c.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -std=c90 -o CMakeFiles/cmTC_d43ee.dir/feature_tests.c.o   -c /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d43ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d43ee.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target   CMakeFiles/cmTC_d43ee.dir/feature_tests.c.o  -o cmTC_d43ee -rdynamic 
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_117b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_117b4.dir/build.make CMakeFiles/cmTC_117b4.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_117b4.dir/testCXXCompiler.cxx.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++   -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -o CMakeFiles/cmTC_117b4.dir/testCXXCompiler.cxx.o -c /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_117b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_117b4.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++   -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target   CMakeFiles/cmTC_117b4.dir/testCXXCompiler.cxx.o  -o cmTC_117b4 -rdynamic 
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98ca5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98ca5.dir/build.make CMakeFiles/cmTC_98ca5.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98ca5.dir/CMakeCXXCompilerABI.cpp.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++   -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -o CMakeFiles/cmTC_98ca5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_98ca5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98ca5.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++   -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target  -v CMakeFiles/cmTC_98ca5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_98ca5 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++
+COLLECT_LTO_WRAPPER=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/lto-wrapper
+Target: aarch64-gnu-linux
+Configured with: /home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=i686-oesdk-linux --target=aarch64-gnu-linux --prefix=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr --exec_prefix=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr --bindir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/bin/aarch64-gnu-linux --sbindir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/bin/aarch64-gnu-linux --libexecdir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/libexec/aarch64-gnu-linux --datadir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/share --sysconfdir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/etc --sharedstatedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/com --localstatedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/var --libdir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/lib/aarch64-gnu-linux --includedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/include --oldincludedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/include --infodir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/share/info --mandir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/i686-nativesdk-oesdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-gnu-linux- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-build-time-tools=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/x86_64-linux/usr/aarch64-gnu-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/tegra-t18x --with-sysroot=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/sysroot --enable-poison-system-directories --with-mpfr=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/i686-nativesdk-oesdk-linux --with-mpc=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/i686-nativesdk-oesdk-linux --enable-nls --enable-__cxa_atexit
+Thread model: posix
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/
+LIBRARY_PATH=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot' '-fPIC' '-L/lib-target' '-L/targetfs/lib/aarch64-linux-gnu' '-v' '-o' 'cmTC_98ca5' '-rdynamic' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/collect2 --sysroot=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_98ca5 /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crt1.o /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crti.o /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/crtbegin.o -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2 -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2 -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib -rpath /lib-target CMakeFiles/cmTC_98ca5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/crtend.o /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crtn.o
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-gnu-linux-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_98ca5/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_98ca5.dir/build.make CMakeFiles/cmTC_98ca5.dir/build]
+  ignore line: [make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_98ca5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++   -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -o CMakeFiles/cmTC_98ca5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_98ca5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98ca5.dir/link.txt --verbose=1]
+  ignore line: [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++   -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target  -v CMakeFiles/cmTC_98ca5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_98ca5 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/lto-wrapper]
+  ignore line: [Target: aarch64-gnu-linux]
+  ignore line: [Configured with: /home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/work-shared/gcc-4.9.2-r0/gcc-4.9.2/configure --build=x86_64-linux --host=i686-oesdk-linux --target=aarch64-gnu-linux --prefix=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr --exec_prefix=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr --bindir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/bin/aarch64-gnu-linux --sbindir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/bin/aarch64-gnu-linux --libexecdir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/libexec/aarch64-gnu-linux --datadir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/share --sysconfdir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/etc --sharedstatedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/com --localstatedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/var --libdir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/lib/aarch64-gnu-linux --includedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/include --oldincludedir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/include --infodir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/share/info --mandir=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/i686-nativesdk-oesdk-linux --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-c99 --enable-long-long --enable-symvers=gnu --enable-libstdcxx-pch --program-prefix=aarch64-gnu-linux- --without-local-prefix --enable-target-optspace --enable-lto --enable-libssp --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --with-build-time-tools=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/x86_64-linux/usr/aarch64-gnu-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/tegra-t18x --with-sysroot=/usr/local/oecore-i686/sysroots/i686-oesdk-linux/usr/sysroot --enable-poison-system-directories --with-mpfr=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/i686-nativesdk-oesdk-linux --with-mpc=/home/savl/mytree/yocto-layer/scripts-vib4/build/tmp/sysroots/i686-nativesdk-oesdk-linux --enable-nls --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/]
+  ignore line: [LIBRARY_PATH=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/:/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot' '-fPIC' '-L/lib-target' '-L/targetfs/lib/aarch64-linux-gnu' '-v' '-o' 'cmTC_98ca5' '-rdynamic' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/collect2 --sysroot=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot --build-id --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_98ca5 /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crt1.o /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crti.o /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/crtbegin.o -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2 -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2 -L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib -rpath /lib-target CMakeFiles/cmTC_98ca5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/crtend.o /home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crtn.o]
+    arg [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/collect2] ==> ignore
+    arg [--sysroot=/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_98ca5] ==> ignore
+    arg [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/crtbegin.o] ==> ignore
+    arg [-L/lib-target] ==> dir [/lib-target]
+    arg [-L/targetfs/lib/aarch64-linux-gnu] ==> dir [/targetfs/lib/aarch64-linux-gnu]
+    arg [-L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2] ==> dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2]
+    arg [-L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc] ==> dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc]
+    arg [-L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib] ==> dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib]
+    arg [-L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2] ==> dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2]
+    arg [-L/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib] ==> dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib]
+    arg [-rpath] ==> ignore
+    arg [/lib-target] ==> ignore
+    arg [CMakeFiles/cmTC_98ca5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2/crtend.o] ==> ignore
+    arg [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/lib-target] ==> [/lib-target]
+  collapse library dir [/targetfs/lib/aarch64-linux-gnu] ==> [/targetfs/lib/aarch64-linux-gnu]
+  collapse library dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2] ==> [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2]
+  collapse library dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../lib/aarch64-gnu-linux/gcc] ==> [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/lib/aarch64-gnu-linux/gcc]
+  collapse library dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/lib] ==> [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/sysroot/lib]
+  collapse library dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib/aarch64-gnu-linux/4.9.2] ==> [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/sysroot/usr/lib/aarch64-gnu-linux/4.9.2]
+  collapse library dir [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../sysroot/usr/lib] ==> [/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/sysroot/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/lib-target;/targetfs/lib/aarch64-linux-gnu;/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/lib/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2;/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/lib/aarch64-gnu-linux/gcc;/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/sysroot/lib;/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/sysroot/usr/lib/aarch64-gnu-linux/4.9.2;/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bab2c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bab2c.dir/build.make CMakeFiles/cmTC_bab2c.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bab2c.dir/feature_tests.cxx.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++   -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -std=c++14 -o CMakeFiles/cmTC_bab2c.dir/feature_tests.cxx.o -c /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bab2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bab2c.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++   -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target   CMakeFiles/cmTC_bab2c.dir/feature_tests.cxx.o  -o cmTC_bab2c -rdynamic 
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad65c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad65c.dir/build.make CMakeFiles/cmTC_ad65c.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad65c.dir/feature_tests.cxx.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++   -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -std=c++11 -o CMakeFiles/cmTC_ad65c.dir/feature_tests.cxx.o -c /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ad65c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad65c.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++   -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target   CMakeFiles/cmTC_ad65c.dir/feature_tests.cxx.o  -o cmTC_ad65c -rdynamic 
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0be41/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0be41.dir/build.make CMakeFiles/cmTC_0be41.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0be41.dir/feature_tests.cxx.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++   -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -std=c++98 -o CMakeFiles/cmTC_0be41.dir/feature_tests.cxx.o -c /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0be41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0be41.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-g++   -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target   CMakeFiles/cmTC_0be41.dir/feature_tests.cxx.o  -o cmTC_0be41 -rdynamic 
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a98e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a98e.dir/build.make CMakeFiles/cmTC_4a98e.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a98e.dir/CheckIncludeFile.c.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -o CMakeFiles/cmTC_4a98e.dir/CheckIncludeFile.c.o   -c /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4a98e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a98e.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target   CMakeFiles/cmTC_4a98e.dir/CheckIncludeFile.c.o  -o cmTC_4a98e -rdynamic 
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b4a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b4a0.dir/build.make CMakeFiles/cmTC_8b4a0.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b4a0.dir/CheckFunctionExists.c.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8b4a0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8b4a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b4a0.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create  -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target   CMakeFiles/cmTC_8b4a0.dir/CheckFunctionExists.c.o  -o cmTC_8b4a0 -rdynamic -lpthread 
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+
+

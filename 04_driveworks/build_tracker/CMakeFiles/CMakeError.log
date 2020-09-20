@@ -1,0 +1,56 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c43b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c43b.dir/build.make CMakeFiles/cmTC_2c43b.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c43b.dir/CheckSymbolExists.c.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC    -o CMakeFiles/cmTC_2c43b.dir/CheckSymbolExists.c.o   -c /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2c43b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c43b.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -fPIC   -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target   CMakeFiles/cmTC_2c43b.dir/CheckSymbolExists.c.o  -o cmTC_2c43b -rdynamic 
+CMakeFiles/cmTC_2c43b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
+CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2c43b.dir/build.make:97: recipe for target 'cmTC_2c43b' failed
+make[1]: *** [cmTC_2c43b] Error 1
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2c43b/fast' failed
+make: *** [cmTC_2c43b/fast] Error 2
+
+File /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3543/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3543.dir/build.make CMakeFiles/cmTC_c3543.dir/build
+make[1]: Entering directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3543.dir/CheckFunctionExists.c.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -DVIBRANTE -DVIBRANTE_V5L -isystem /include  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c3543.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3543
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3543.dir/link.txt --verbose=1
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/drive-t186ref-linux/../toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-gcc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create  -L/lib-target -L/targetfs/lib/aarch64-linux-gnu -Wl,-rpath,/lib-target   CMakeFiles/cmTC_c3543.dir/CheckFunctionExists.c.o  -o cmTC_c3543 -rdynamic -lpthreads 
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/../../libexec/aarch64-gnu-linux/gcc/aarch64-gnu-linux/4.9.2/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c3543.dir/build.make:97: recipe for target 'cmTC_c3543' failed
+make[1]: *** [cmTC_c3543] Error 1
+make[1]: Leaving directory '/usr/local/driveworks-0.6/samples/build_tracker/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c3543/fast' failed
+make: *** [cmTC_c3543/fast] Error 2
+
+

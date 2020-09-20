@@ -1,0 +1,4 @@
+add_subdirectory(disparity)
+add_subdirectory(stereoRectifier)
+add_subdirectory(camera/camera_usb)
+add_subdirectory(stereo_common)

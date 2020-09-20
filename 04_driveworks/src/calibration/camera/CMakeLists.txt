@@ -1,0 +1,34 @@
+# Copyright (c) 2016, NVIDIA CORPORATION.  All rights reserved.
+
+project(sample_calibration_camera C CXX)
+
+#-------------------------------------------------------------------------------
+# Project files
+#-------------------------------------------------------------------------------
+set(PUBLIC_DOCS
+    README.md
+)
+
+set(SOURCES
+    main.cpp
+    CameraCalibrationSample.hpp
+    CameraCalibrationSample.cpp
+)
+
+set(LIBRARIES
+    dw_samples_framework
+    dw_samples_dnn_common
+    ${Driveworks_LIBRARIES}
+    )
+
+#-------------------------------------------------------------------------------
+# Final target
+#-------------------------------------------------------------------------------
+add_executable(${PROJECT_NAME} ${SOURCES})
+target_link_libraries(${PROJECT_NAME} ${LIBRARIES})
+set_property(TARGET ${PROJECT_NAME} PROPERTY FOLDER "Samples")
+
+# ------------------------------------------------------------------------------
+# Install target
+# ------------------------------------------------------------------------------
+sdk_add_sample(${PROJECT_NAME})

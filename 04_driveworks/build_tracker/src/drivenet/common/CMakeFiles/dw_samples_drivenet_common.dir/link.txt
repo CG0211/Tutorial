@@ -1,0 +1,2 @@
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-ar qc libdw_samples_drivenet_common.a  CMakeFiles/dw_samples_drivenet_common.dir/DriveNetApp.cpp.o CMakeFiles/dw_samples_drivenet_common.dir/common.cpp.o
+/home/xwang/NVIDIA/Drive/5050bL_SDK/DriveSDK/toolchains/tegra-4.9-nv/usr/bin/aarch64-gnu-linux/aarch64-gnu-linux-ranlib libdw_samples_drivenet_common.a
