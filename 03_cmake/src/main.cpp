@@ -1,4 +1,4 @@
-#include "../mylib/print.hpp"
+#include "print.hpp"
 
 int main(){
 
